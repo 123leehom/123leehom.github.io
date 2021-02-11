@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://123leehom.github.io</id>
     <title>123leehom驿站</title>
-    <updated>2021-02-11T08:48:30.148Z</updated>
+    <updated>2021-02-11T08:55:32.836Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://123leehom.github.io"/>
     <link rel="self" href="https://123leehom.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://123leehom.github.io/images/avatar.png</logo>
     <icon>https://123leehom.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 123leehom驿站</rights>
+    <entry>
+        <title type="html"><![CDATA[vimium---编辑器之神(浏览器版)]]></title>
+        <id>https://123leehom.github.io/post/vimium-bian-ji-qi-zhi-shen-liu-lan-qi-ban/</id>
+        <link href="https://123leehom.github.io/post/vimium-bian-ji-qi-zhi-shen-liu-lan-qi-ban/">
+        </link>
+        <updated>2021-02-11T08:50:24.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[curl和wget的命令参数记录]]></title>
         <id>https://123leehom.github.io/post/curl-he-wget-de-yong-fa/</id>
