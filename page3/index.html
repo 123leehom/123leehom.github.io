@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="theme-color" content="#000">
 <title>python爬虫爬取壁纸网站,制作个人图床 | 力宏驿站</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1613313480294">
+<link rel="shortcut icon" href="/favicon.ico?v=1613314155813">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -614,6 +614,27 @@
 </div>
             
             
+  
+    
+      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: '54b7934b9db927141d89',
+    clientSecret: '2e5ce7a00f0c2013c91ab147bbb4f972cb043149',
+    repo: '123leehom.github.io',
+    owner: '123leehom',
+    admin: ['123leehom'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
+</script>
+    
+    
   
 
           </div>
