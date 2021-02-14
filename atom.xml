@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://123leehom.github.io</id>
     <title>木叶村的徐力宏</title>
-    <updated>2021-02-14T08:06:27.492Z</updated>
+    <updated>2021-02-14T09:26:02.406Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://123leehom.github.io"/>
     <link rel="self" href="https://123leehom.github.io/atom.xml"/>
@@ -22,17 +22,6 @@
         <link href="https://123leehom.github.io/post/page1/">
         </link>
         <updated>2021-02-11T07:50:59.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[首页]]></title>
-        <id>https://123leehom.github.io/post/home/</id>
-        <link href="https://123leehom.github.io/post/home/">
-        </link>
-        <updated>2021-02-10T02:46:54.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="http://www.bilibil.com">富士达</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p><a href="http://www.bilibil.com">富士达</a></p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
