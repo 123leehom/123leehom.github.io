@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="theme-color" content="#000">
 <title>vimium---编辑器之神(浏览器版) | 力宏驿站</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1613318222226">
+<link rel="shortcut icon" href="/favicon.ico?v=1613361060268">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -669,28 +669,54 @@ x恢复关闭的选项卡<br>
 </div>
             
             
-  
-    
-      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<div id="vcomments" style="padding: 10px 0px 0px 0px"></div>
 
-<div id="gitalk-container"></div>
+<style>
+  .v .veditor {
+    min-height: 10rem;
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0);
+    resize: none;
+  }
 
+  .v .vwrap {
+    border: 1px solid #000 !important;
+  }
+
+  .v .vbtn {
+    padding: .4rem 1.2rem !important;
+    border-color: #fff !important;
+    background-color: #49b1f5 !important;
+    color: #fff !important;
+    font-size: .7rem !important;
+  }
+
+  .v .vcards .vcard .vh .vmeta .vat {
+    padding: 0 .8rem !important;
+    border: 1px solid #00c4b6 !important;
+    border-radius: 5px !important;
+    color: #00c4b6 !important;
+  }
+</style>
 <script>
-  var gitalk = new Gitalk({
-    clientID: '54b7934b9db927141d89',
-    clientSecret: '2e5ce7a00f0c2013c91ab147bbb4f972cb043149',
-    repo: '123leehom.github.io',
-    owner: '123leehom',
-    admin: ['123leehom'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-  gitalk.render('gitalk-container')
+  new Valine({
+    el: '#vcomments',
+    appId: 'sjv2k7uoNd6gpkrPRca7BOKu-gzGzoHsz',
+    appKey: 'bTSi97Wi8drli02mVgPzluhT',
+    avatar: '',
+    placeholder: '',
+    pageSize: '',
+    lang: 'zh-cn',
+    enableQQ: 'true' === 'false',
+    visitor: 'true' === 'true',
+    highlight: 'true' === 'true',
+    avatarForce: 'true' === 'false',
+  });
 </script>
-    
-    
-  
 
           </div>
         </div>
@@ -720,7 +746,7 @@ x恢复关闭的选项卡<br>
   
   
   <div class="bg-img">
-    <img src="media/images/bk.jpg" />
+    <img src="\media\images\custom-bgImg.jpg" />
   </div>
   
   
@@ -758,7 +784,7 @@ x恢复关闭的选项卡<br>
         <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
         <input id="duType" value="douqilai" type="hidden">
         
-        <input name="live2dBGM" value="https://m801.music.126.net/20210214235803/bd3b46efa7d0eed0dbae78806c213cc1/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/5669756706/0402/589b/7015/884f3f37d75affa708cf9a7202c0beb2.mp3" type="hidden">
+        <input name="live2dBGM" value="https://freetyst.nf.migu.cn/public%2Fproduct8th%2Fproduct39%2F2020%2F04%2F0821%2F2018%E5%B9%B411%E6%9C%8807%E6%97%A512%E7%82%B935%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AESONY96%E9%A6%96-2%2F%E5%85%A8%E6%9B%B2%E8%AF%95%E5%90%AC%2FMp3_64_22_16%2F6005970YKN5211558.mp3" type="hidden">
         
       </div>
     
@@ -2119,5 +2145,7 @@ wget(相当于cmd版网页下载器)&lt;br&gt;
 <script src="/media/js/cool.js"></script>
 
 
+
+<script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/sakura.js"></script>
 
 </html>
