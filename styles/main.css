@@ -2056,20 +2056,20 @@ p > code {
     }body {
       background-color: #eee;
     }.header {
-        width: 890px;
+        width: 950px;
         margin: 0 auto;
       }
 
       .main-continer {
-        width: 890px;
+        width: 950px;
         margin: 0 auto;
       }
     @font-face {
-      font-family: 'SourceHanSerif-Bold.ttf';
-      src: url('/media/fonts/SourceHanSerif-Bold.ttf.ttf');
+      font-family: 'fontawesome-webfont';
+      src: url('/media/fonts/fontawesome-webfont.ttf');
     }
     * {
-        font-family: 'SourceHanSerif-Bold.ttf';
+        font-family: 'fontawesome-webfont';
     }
     .katex-block *{
       font-family: 'KaTeX_Main';
@@ -2079,16 +2079,16 @@ p > code {
       font-size: 20px !important
     }
     body {
-      color: #212529;
+      color: #555;
     }
     .next-md-body {
-      color: #212529;
+      color: #555;
     }
     .next-md-body h1, .next-md-body h2 {
-      border-bottom-color: #212529;
+      border-bottom-color: #555;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #eeeeeeb2;
+      background: #1c7ed6b2;
     }h1, h2, h3, h4, h5, h6 {
       color: #555;
     }
@@ -2131,7 +2131,7 @@ p > code {
       background-color:  !important;
     }
       .nav-item a {
-        color:  #212529;
+        color:  #555;
       }.nav-item a:hover {
         color: #222;
       }.nav-item-active {
@@ -2175,7 +2175,7 @@ p > code {
       color: #fc6423;
       border-bottom-color: #fc6423;
     }.bg-color {
-      background-color: #eeeeeeb2;
+      background-color: #ffffffb2;
     }
     .gemini .blog-header, .gemini .sidebar-wrapper, .gemini .article-wrapper, .gemini .post, .gemini .page, .gemini .section, .gemini .section-box, .gemini .sidebar-box, .gemini .friends-section {
       border-radius: 15px;
@@ -2197,10 +2197,10 @@ p > code {
     }
     .mist .site-title i {
       background: #FFFFFFb2;
-    }.site-meta {background:#ddd}.box-scale > #landlord {
+    }.box-scale > #landlord {
       transform: scale(1);
     }.box-shadow-wrapper {
-      padding: 10px;
+      box-shadow: none !important;
     }body {
       cursor: default;
     }a {
