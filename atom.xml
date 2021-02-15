@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xulihong.vercel.app</id>
     <title>力宏驿站</title>
-    <updated>2021-02-15T09:04:24.282Z</updated>
+    <updated>2021-02-15T09:20:24.742Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xulihong.vercel.app"/>
     <link rel="self" href="https://xulihong.vercel.app/atom.xml"/>
@@ -15,6 +15,65 @@
         <link href="https://xulihong.vercel.app/page2/">
         </link>
         <updated>2021-02-11T08:50:24.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="个人向vim学习记录勿过度解读">个人向Vim学习记录,勿过度解读🙃</h2>
+<h3 id="vim的基本字符操作">vim的基本字符操作</h3>
+<ul>
+<li>f+页面浮动字符,切到走标签J&amp;切到右标签K</li>
+<li>快速向下滚动d&amp;快速向上滚动u,滚动到页面顶部gg&amp;滚动到页面底部G<br>
+快速搜索,并在新标签打开o<br>
+在当前标签前进H&amp;后退L<br>
+关闭页面x&amp;回复页面X<br>
+主动脱离焦点esc<br>
+shift+/,查看所有快捷键</li>
+</ul>
+<p>导航页面<br>
+j， <c-e>向下滚动<br>
+k， <c-y>向上滚动<br>
+GG滚动到页面的顶部<br>
+g滚动到页面底部<br>
+d向下滚动半页<br>
+u向上滚动半页<br>
+h滚动左<br>
+l滚动右<br>
+r重新载入网页<br>
+yy将当前的URL复制到剪贴板<br>
+p在当前选项卡中打开剪贴板的URL<br>
+P在新选项卡中打开剪贴板的URL<br>
+i进入插入模式<br>
+v进入视觉模式<br>
+gi将焦点放在页面上的第一个文本输入<br>
+f在“当前”页签中打开一个链接<br>
+F在新标签中打开一个链接<br>
+gf选择页面上的下一帧<br>
+gF选择页面的主框架/顶部框架</p>
+<p>使用vomnibar<br>
+o打开URL、书签或历史条目<br>
+O在新标签中打开URL，书签或历史条目<br>
+b打开书签<br>
+B在新标签页中打开一个书签<br>
+T在打开的标签页中搜索</p>
+<p>使用发现<br>
+/进入查找模式<br>
+n循环转发到下一个查找匹配<br>
+N循环返回到前面的查找匹配</p>
+<p>浏览历史<br>
+H回顾历史(后退)<br>
+L历史上前进(前进)</p>
+<p>操作选项卡<br>
+t创建新标签页<br>
+J, gt向左一页<br>
+K, gt，右转一个标签<br>
+^转到先前访问标签<br>
+gO转到第一个选项卡<br>
+g$到最后一个帐单<br>
+yt复制当前标签<br>
+<a-p>引脚或取消引脚当前标签<br>
+<a-m>静音或取消静音当前选项卡<br>
+x关闭当前选项卡<br>
+x恢复关闭的选项卡<br>
+杂项<br>
+?显示帮助</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[curl和wget的命令参数记录]]></title>
@@ -22,6 +81,37 @@
         <link href="https://xulihong.vercel.app/page1/">
         </link>
         <updated>2021-02-11T07:50:59.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>参数	说明	示例<br>
+-A	设置user-agent	curl -A &quot;Chrome&quot; http://www.baidu.com<br>
+-X	用指定方法请求	curl -X POST http://httpbin.org/post<br>
+-I	只返回请求的头信息	<br>
+-d	以POST方法请求ulr,并发送相应的参数	<br>
+-d &quot;python的写法&quot; http://httpbin.org/post</p>
+<p>-d @filename http://httpbin.org/post</p>
+<p>-O	下载文件并以远程文件名保存(小写则自定义文件名)	<br>
+curl -o fox.jpeg http://httpbin.org/image/jpeg</p>
+<p>-L	跟随重定向请求(L会头信息和源码一起,一般和I连用)	<br>
+curl -IL https://baidu.com</p>
+<p>-H	设置头信息	<br>
+curl -o image.webp -H &quot;accept:image/webp&quot; http://httpbin.org/image</p>
+<p>-K	允许发起不安全的ssl请求	<br>
+-b	设置cookie	curl -b a=test http://httpbin.org/cookies<br>
+-s	沉默,不print,	<br>
+-v	 	<br>
+wget(相当于cmd版网页下载器)<br>
+定义一个命令,查看本机外网IP</p>
+<p>alias myip=&quot;curl http://httpbin.org/get|grep -E '\d+'|grep -v User-Agent|cut -d '&quot;' -f4&quot;</p>
+<p>参数	说明	实例<br>
+-c	定点续传	<br>
+-O	以指定文件名保存下载	wget -O test.png http://httpbin.org/image/png<br>
+--limit-rate	以指定的速度下载目标文件	--limit-rate=200k<br>
+-b	后台下载	<br>
+-U	设置User-Agent	<br>
+--mirror	镜像某个网站	<br>
+-p	下载页面中所有相关资源	<br>
+-r	递归下载网页中所有链接</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[python爬虫爬取壁纸网站,制作个人图床]]></title>
@@ -29,6 +119,10 @@
         <link href="https://xulihong.vercel.app/page3/">
         </link>
         <updated>2021-02-10T02:46:54.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h2 id="爬虫基础部分">爬虫基础部分</h2>
+<p>1 当你看到这个文章时我默认你是懂python爬虫基础的,你知道python的requests,</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
@@ -36,5 +130,30 @@
         <link href="https://xulihong.vercel.app/about/">
         </link>
         <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<ul>
+<li>这里是123leehom的第一个网站,欢迎光临 力宏驿站</li>
+</ul>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<ul>
+<li>二刺猿,爱好数码(我才不告诉你我家境贫寒)</li>
+<li>计算机科学与技术专业的技术小白</li>
+<li>定位湖北武汉的123leehom</li>
+</ul>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<ul>
+<li>宏亲,miki,提莫蘑菇粉</li>
+<li>敲代码,爱玩黑神话-悟空</li>
+<li>姬丝秀忒.雅赛劳拉莉昂.刃下心</li>
+</ul>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<ul>
+<li>电子邮箱:leehomxu76@gmail.com</li>
+</ul>
+]]></content>
     </entry>
 </feed>
